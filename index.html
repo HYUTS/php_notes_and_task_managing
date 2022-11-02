@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Get-R-Done</title>
+<script src="functions.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+    <form method="post" action="saved_notes.php">
+<div id="to_do">
+    <h2>To Do:</h2>
+    <textarea name="to_do_list" id="formating" class="green_c" placeholder="What needs doing?"></textarea>
+</div>
+
+<div id="done">
+    <h2>Finished!</h2>
+    <!--<img src="clipboard.png"> TESTING CLIPBOARD HERE-->
+    <textarea name="finished_list" id="formating" class="blue_c" placeholder="Done with it!"></textarea>
+    
+<input id="sub" type="submit" name="submit_button" value="Save Notes">
+</div>
+
+<div id="attention">
+    <h2>Needs attention</h2>
+    <textarea name="attention_list" id="formating" class="red_c" placeholder="Any reminders?"></textarea>
+</div>
+    </form>
+</body>
+</html>
