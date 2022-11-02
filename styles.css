@@ -1,68 +1,73 @@
 body {
-           margin: auto;
-       }
-       h2 {
-           margin: auto;
-           text-align: center;
-       }
-       #to_do, #done, #attention{
-           float: left;
-           width: 33.3%;
-       }
-       #to_do {
-           height: 100%;
-           background-color: #DDF7D2;
-       }
-       #done {
-           height: 100%;
-           background-color: #D2F0F7;
-       }
-       #attention {
-           height: 100%;
-           background-color: #F7D9D2;
-       }
-       .green_c {
-           border: groove 5px #DDF7D2;
-           background-color: #DDF7D2;
-           color: #327f11;
-       }
-       .blue_c {
-           border: groove 5px #D2F0F7;
-           background-color: #D2F0F7;
-           color: #178199;
-       }
-       .red_c {
-           border: groove 5px #F7D9D2;
-           background-color: #F7D9D2;
-           color: #992f17;
-       }
-       .green_c, .blue_c, .red_c {
-           border-top: none;
-       }
-       #formating {
-           float: left;
-           width: 98.5%;
-           height: 95%;
-           box-shadow: 1px 1px 5px;
-       }
-       textarea, li {
-           font-size: 30px;
-       }
-       textarea {
-           resize: none;
-       }
-       #sub {
-           font-size: 25px;
-           box-shadow: 1px 1px 3px;
-           width: 280px;
-           bottom: 3%;
-           left: 43%;
-           position: absolute;
-           border-radius: 15px;
-           padding: 20px;
-           background-color: #F5F7D2; /*unsupported gradient browsers*/
-           background: radial-gradient(#F5F7D2 50%, #CBCCBE);
-       }
-       /*PART OF CLIPBOARD TEST
+  margin: auto;
+}
+h2 {
+  margin: auto;
+  text-align: center;
+}
+#to_do,
+#done,
+#attention {
+  float: left;
+  width: 33.3%;
+}
+#to_do {
+  height: 100%;
+  background-color: #ddf7d2;
+}
+#done {
+  height: 100%;
+  background-color: #d2f0f7;
+}
+#attention {
+  height: 100%;
+  background-color: #f7d9d2;
+}
+.green_c {
+  border: groove 5px #ddf7d2;
+  background-color: #ddf7d2;
+  color: #327f11;
+}
+.blue_c {
+  border: groove 5px #d2f0f7;
+  background-color: #d2f0f7;
+  color: #178199;
+}
+.red_c {
+  border: groove 5px #f7d9d2;
+  background-color: #f7d9d2;
+  color: #992f17;
+}
+.green_c,
+.blue_c,
+.red_c {
+  border-top: none;
+}
+#formating {
+  float: left;
+  width: 98.5%;
+  height: 95%;
+  box-shadow: 1px 1px 5px;
+}
+textarea,
+li {
+  font-size: 30px;
+}
+textarea {
+  resize: none;
+}
+#sub {
+  font-size: 25px;
+  box-shadow: 1px 1px 3px;
+  width: 280px;
+  bottom: 3%;
+  left: 43%;
+  position: absolute;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f5f7d2; /*unsupported gradient browsers*/
+  background: radial-gradient(#f5f7d2 50%, #cbccbe);
+}
+/*PART OF CLIPBOARD TEST
         *img {position: absolute; opacity: 0.2;}
         **/
